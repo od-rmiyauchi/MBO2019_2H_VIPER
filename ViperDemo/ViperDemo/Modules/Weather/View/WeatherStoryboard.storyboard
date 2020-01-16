@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z2T-Ly-XNs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="0uM-mX-0R5">
+            <objects>
+                <viewController storyboardIdentifier="WeatherViewController" id="Z2T-Ly-XNs" customClass="WeatherViewController" customModule="ViperDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rc9-48-gRe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z6W-zI-QLY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Z6W-zI-QLY" firstAttribute="top" secondItem="90I-bc-vWw" secondAttribute="top" id="5XQ-SK-6aM"/>
+                            <constraint firstItem="Z6W-zI-QLY" firstAttribute="leading" secondItem="90I-bc-vWw" secondAttribute="leading" id="DPM-gV-Fel"/>
+                            <constraint firstItem="90I-bc-vWw" firstAttribute="bottom" secondItem="Z6W-zI-QLY" secondAttribute="bottom" id="ox0-Sv-fWS"/>
+                            <constraint firstItem="90I-bc-vWw" firstAttribute="trailing" secondItem="Z6W-zI-QLY" secondAttribute="trailing" id="x40-Uh-1hU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="90I-bc-vWw"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="Z6W-zI-QLY" id="z5P-Aj-nv9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OlK-C7-UVf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
