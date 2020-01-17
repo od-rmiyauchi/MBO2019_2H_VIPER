@@ -59,7 +59,8 @@ https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/
 
 ## VIPERの処理の流れ
 <画面遷移>  
-ボタン押下などのUIイベントで画面遷移する場合の処理の流れ
+ボタン押下などのUIイベントで画面遷移する場合の処理の流れ  
+![画面遷移](https://github.com/od-rmiyauchi/MBO2019_2H_VIPER/blob/images/VIPER_ScreenTransition.png)
 1. イベントキャッチ後、遷移元のViewがPresenterに画面遷移を要求
 2. PresenterがRouterに画面遷移を要求
 3. Routerは遷移先のRouter’に画面作成を要求
@@ -69,6 +70,7 @@ https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/
  このとき、必要があればPresenter’はInteractor’を使って画面表示に必要な情報を取得
 
 <イベント処理>  
+![イベント処理](https://github.com/od-rmiyauchi/MBO2019_2H_VIPER/blob/images/VIPER_Event.png)
 1. イベントキャッチ後、ViewはPresenterに処理を要求
 2. PresenterはInteractorを実行
 3. 処理完了後、InteractorからEntityを受け取る
