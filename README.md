@@ -28,9 +28,9 @@ https://blog.tai2.net/the_clean_architecture.html
 　そもそもMVVMもVCをスリムにすることが目的なので、他のアーキテクチャで十分だと思う  
 
 ## VIPERを使うべきか？
-- 開発プロジェクトが短く、複雑ではない　→ NG
-- 開発プロジェクトが長く、複雑　　　　　→ VIPERを使った方が良い
-- それ以外　　　　　　　　　　　　　　　→ どっちでも良い
+- 開発期間が短く、プロジェクトが複雑ではない　→ NG
+- 開発期間が長く、プロジェクトが複雑　　　　　→ VIPERを使った方が良い
+- それ以外　　　　　　　　　　　　　　　　　　→ どっちでも良い
 
 https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/
 
