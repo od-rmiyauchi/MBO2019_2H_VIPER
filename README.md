@@ -102,3 +102,11 @@ https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/
   - ViewがEntityを参照しても良いか？  
   → Clean ArchitectureではNGだが、VIPERのサンプル（Articles-iOS-VIPER）ではViewがEntityを参照しているので悩む  
   とりあえずデモアプリではEntityをViewModelに変換してViewに渡している。  
+
+## 参考書籍・サイト
+- Clean Architecture 達人に学ぶソフトウェアの構造と設計  
+  https://www.kadokawa.co.jp/product/301806000678/
+- iOS Project Architecture : Using VIPER  
+  https://qiita.com/YKEI_mrn/items/67735d8ebc9a83fffd29
+- VIPER to be or not to be?  
+  https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/
